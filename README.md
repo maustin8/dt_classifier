@@ -73,18 +73,18 @@ example: </br>
 python svm_main.py -s dual -r 0.05 0.025 -e 100 -k
 
 # nn_main
-Note: nvm_main.py must be in the same directory as datasets/ and datasets/ must contain directories bank-note/ which must contain the train and test csv files 
+Note: nn_main.py must be in the same directory as datasets/ and datasets/ must contain directories bank-note/ which must contain the train and test csv files 
 
 # To run program:  
 Commands:  
 Optional </br>
 
-"-r", "--learn_rate":Choose the initial learning rate [DEFAULT] = 1")
-"-d", "--learn_rate_tweak":Choose the learning rate tweak \"d\" [DEFAULT] = 1")
-"-w", "--width":Choose the width of each hidden layer [DEFAULT] = default from assignment listing")
-"-e", "--num_epoch":Choose the number of epochs for training [DEFAULT] = 100")
-"-l", "--depth": Choose the depths of the neural network for bonus [DEFAULT] = default from assignment listing")
-"-tf", "--tensor": Flag to use tensorflow library for neural network implementation")
+"-r", "--learn_rate":Choose the initial learning rate [DEFAULT = 1] </br>
+"-d", "--learn_rate_tweak":Choose the learning rate tweak \"d\" [DEFAULT = 1] </br>
+"-w", "--width":Choose the width of each hidden layer [DEFAULT = default from assignment listing] </br>
+"-e", "--num_epoch":Choose the number of epochs for training [DEFAULT = 100] </br>
+"-l", "--depth": Choose the depths of the neural network for bonus [DEFAULT = default from assignment listing] </br>
+"-tf", "--tensor": Flag to use tensorflow library for neural network implementation </br>
 
 example: </br>
 python n_main.py -w 5 10 25 50 50 -e 100
